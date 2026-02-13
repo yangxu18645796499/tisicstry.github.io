@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lives on My New Hugo Site</title>
+    <title>Life on My New Hugo Site</title>
     <link>http://localhost:1313/life/</link>
-    <description>Recent content in Lives on My New Hugo Site</description>
+    <description>Recent content in Life on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Feb 2026 14:09:54 +0800</lastBuildDate>

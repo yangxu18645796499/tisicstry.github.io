@@ -1,0 +1,4 @@
+---
+title: "Life"
+bookCollapseSection: true
+---
