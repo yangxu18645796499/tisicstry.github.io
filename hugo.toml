@@ -1,16 +1,4 @@
 baseURL = 'https://tisicstry.top/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = "PaperMod"
-
-[menu]
-  [[menu.main]]
-    identifier = "tech"
-    name = "Tech Note"
-    url = "/tech/"
-    weight = 10
-  [[menu.main]]
-    identifier = "life"
-    name = "Life"
-    url = "/life/"
-    weight = 20
+theme = "book"
