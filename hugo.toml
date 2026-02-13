@@ -1,4 +1,4 @@
-baseURL = 'http://tisicstry.top/'
+baseURL = 'https://tisicstry.top/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "PaperMod"
