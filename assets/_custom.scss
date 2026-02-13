@@ -1,6 +1,10 @@
+/* 强制提升优先级，确保覆盖主题默认设置 */
 :root {
-    --font-size: 18px; /* 增大全局基础字号 */
-    
-    /* 可选：如果你觉得标题也需要单独调整，可以解开下面的注释 */
-    /* --h1-size: 2.5rem; */
+    --font-size: 18px !important; 
+    --font-size-smaller: 0.95rem !important; 
+    --font-size-smallest: 0.85rem !important;
+}
+
+body {
+    font-size: var(--font-size);
 }

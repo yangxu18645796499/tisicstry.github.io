@@ -10,3 +10,6 @@ theme = "book"
   
   # (Optional) Set true to enable search
   BookSearch = true
+  
+  # Set theme to light by default to match your CSS logic if applicable
+  BookTheme = 'light'
