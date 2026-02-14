@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "book"
 
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
 [params]
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Set '*' to render all sections to menu.
