@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Feb 2026 13:10:21 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust_learning3</title>
+      <link>http://localhost:1313/tech/rust/rust_learning3/</link>
+      <pubDate>Sun, 15 Feb 2026 13:10:21 +0800</pubDate>
+      <guid>http://localhost:1313/tech/rust/rust_learning3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust_learning2</title>
+      <link>http://localhost:1313/tech/rust/rust_learning2/</link>
+      <pubDate>Sun, 15 Feb 2026 12:47:19 +0800</pubDate>
+      <guid>http://localhost:1313/tech/rust/rust_learning2/</guid>
+      <description>&lt;h1 id=&#34;一个简单的rust程序剖析&#34;&gt;一个简单的Rust程序剖析&lt;a class=&#34;anchor&#34; href=&#34;#%e4%b8%80%e4%b8%aa%e7%ae%80%e5%8d%95%e7%9a%84rust%e7%a8%8b%e5%ba%8f%e5%89%96%e6%9e%90&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;main函数&lt;/li&gt;&#xA;&lt;li&gt;从rust标准库导入&lt;/li&gt;&#xA;&lt;li&gt;与命令行交互&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;hello-world&#34;&gt;hello world！&lt;a class=&#34;anchor&#34; href=&#34;#hello-world&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;定义函数&#xA;&lt;ul&gt;&#xA;&lt;li&gt;没有参数，没有返回&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;main函数很特别：他是每个rust可执行程序最先运行的代码&lt;/li&gt;&#xA;&lt;li&gt;println!是一个rust macro&#xA;&lt;ul&gt;&#xA;&lt;li&gt;如果是函数的话，就没有!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;代码以;结尾&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;编译和运行是单独的两步&#34;&gt;编译和运行是单独的两步&lt;a class=&#34;anchor&#34; href=&#34;#%e7%bc%96%e8%af%91%e5%92%8c%e8%bf%90%e8%a1%8c%e6%98%af%e5%8d%95%e7%8b%ac%e7%9a%84%e4%b8%a4%e6%ad%a5&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;h2 id=&#34;hello-cargo&#34;&gt;hello cargo&lt;a class=&#34;anchor&#34; href=&#34;#hello-cargo&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;pre&gt;&lt;code&gt;cargo是构建系统和包管理工具&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;创建项目：cargo new hello_cargo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cargotoml&#34;&gt;cargo.toml&lt;a class=&#34;anchor&#34; href=&#34;#cargotoml&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;toml (Tom&amp;rsquo;s Obvious, Minimal Language)格式，是cargo的配置格式&#xA;[pacakge],表示下方内容是用来配置包的&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;name&lt;/li&gt;&#xA;&lt;li&gt;version&lt;/li&gt;&#xA;&lt;li&gt;authors&lt;/li&gt;&#xA;&lt;li&gt;edition&#xA;[dependencies]&#xA;rust中，代码中的包称作crate&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cargo-操作&#34;&gt;cargo 操作&lt;a class=&#34;anchor&#34; href=&#34;#cargo-%e6%93%8d%e4%bd%9c&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;cargo build&#xA;cargo run(构建运行)&#xA;cargo check 检查代码，确保通过编译，不是编译&#xA;cargo build &amp;ndash;release&#xA;尽量用cargo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rust_learning1</title>
+      <link>http://localhost:1313/tech/rust/rust_learning1/</link>
+      <pubDate>Sun, 15 Feb 2026 12:26:05 +0800</pubDate>
+      <guid>http://localhost:1313/tech/rust/rust_learning1/</guid>
+      <description>&lt;h1 id=&#34;rust-简介&#34;&gt;Rust 简介&lt;a class=&#34;anchor&#34; href=&#34;#rust-%e7%ae%80%e4%bb%8b&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;特点&#34;&gt;特点&lt;a class=&#34;anchor&#34; href=&#34;#%e7%89%b9%e7%82%b9&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;性能&lt;/li&gt;&#xA;&lt;li&gt;安全性&lt;/li&gt;&#xA;&lt;li&gt;开发者友好&lt;/li&gt;&#xA;&lt;li&gt;健壮的生态系统 (cargo)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-rust&#34;&gt;Why Rust?&lt;a class=&#34;anchor&#34; href=&#34;#why-rust&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;可编写更快更可靠的软件，&lt;/li&gt;&#xA;&lt;li&gt;兼具高层次的易用性和低层次的控制力&lt;/li&gt;&#xA;&lt;li&gt;用途广泛，包括命令行工具、web服务、嵌入式设备等&lt;/li&gt;&#xA;&lt;li&gt;提供现代开发工具，如cargo、rustfmt、rustrover、rust-analyzer(VACode plugin)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Weekend Hiking</title>
+      <link>http://localhost:1313/life/weekend-hiking/</link>
+      <pubDate>Fri, 13 Feb 2026 14:09:54 +0800</pubDate>
+      <guid>http://localhost:1313/life/weekend-hiking/</guid>
+      <description>&lt;h1 id=&#34;go-hiking&#34;&gt;Go Hiking!&lt;a class=&#34;anchor&#34; href=&#34;#go-hiking&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Java Learning</title>
+      <link>http://localhost:1313/tech/java/java-learning/</link>
+      <pubDate>Fri, 13 Feb 2026 14:09:53 +0800</pubDate>
+      <guid>http://localhost:1313/tech/java/java-learning/</guid>
+      <description>&lt;h1 id=&#34;hello-java-learning&#34;&gt;Hello java learning!&lt;a class=&#34;anchor&#34; href=&#34;#hello-java-learning&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Fri, 13 Feb 2026 13:41:53 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello world!&lt;a class=&#34;anchor&#34; href=&#34;#hello-world&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>

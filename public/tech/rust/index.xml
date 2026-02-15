@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rust on My New Hugo Site</title>
+    <link>https://tisicstry.top/tech/rust/</link>
+    <description>Recent content in rust on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Feb 2026 12:26:05 +0800</lastBuildDate>
+    <atom:link href="https://tisicstry.top/tech/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust_learning1</title>
+      <link>https://tisicstry.top/tech/rust/rust_learning1/</link>
+      <pubDate>Sun, 15 Feb 2026 12:26:05 +0800</pubDate>
+      <guid>https://tisicstry.top/tech/rust/rust_learning1/</guid>
+      <description>&lt;h1 id=&#34;rust-简介&#34;&gt;Rust 简介&lt;a class=&#34;anchor&#34; href=&#34;#rust-%e7%ae%80%e4%bb%8b&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;特点&#34;&gt;特点&lt;a class=&#34;anchor&#34; href=&#34;#%e7%89%b9%e7%82%b9&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;性能&lt;/li&gt;&#xA;&lt;li&gt;安全性&lt;/li&gt;&#xA;&lt;li&gt;开发者友好&lt;/li&gt;&#xA;&lt;li&gt;健壮的生态系统 (cargo)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-rust&#34;&gt;Why Rust?&lt;a class=&#34;anchor&#34; href=&#34;#why-rust&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;可编写更快更可靠的软件，&lt;/li&gt;&#xA;&lt;li&gt;兼具高层次的易用性和低层次的控制力&lt;/li&gt;&#xA;&lt;li&gt;用途广泛，包括命令行工具、web服务、嵌入式设备等&lt;/li&gt;&#xA;&lt;li&gt;提供现代开发工具，如cargo、rustfmt、rustrover、rust-analyzer(VACode plugin)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
