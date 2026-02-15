@@ -1,0 +1,15 @@
+# Hugo default build paths
+public/
+resources/_gen/
+.hugo_build.lock
+
+# OS generated files (macOS & Windows)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
