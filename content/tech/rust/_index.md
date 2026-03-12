@@ -1,4 +1,0 @@
----
-title: "rust"
-bookCollapseSection: true
----
