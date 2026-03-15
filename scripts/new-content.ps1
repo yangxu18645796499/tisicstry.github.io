@@ -2,9 +2,7 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$RelativePath,
 
-    [string]$Title,
-
-    [switch]$NoDate
+    [string]$Title
 )
 
 Set-StrictMode -Version Latest
@@ -64,23 +62,32 @@ if (Test-Path -LiteralPath $targetFile) {
 
 if (-not $Title -or [string]::IsNullOrWhiteSpace($Title)) {
     $name = [IO.Path]::GetFileNameWithoutExtension($targetFile)
-    $Title = ($name -replace "[-_]+", " ").Trim()
+    if ($name -match '^(\d+)(.+)$') {
+        $Title = ($matches[1] + ". " + $matches[2].Trim())
+    }
+    else {
+        $Title = ($name -replace "[-_]+", " ").Trim()
+    }
+
     if ([string]::IsNullOrWhiteSpace($Title)) {
         $Title = "Untitled"
     }
 }
 
-$postContent = @(
-    "---",
-    ('title: "' + $Title + '"')
-)
+$weight = 0
+$fileStem = [IO.Path]::GetFileNameWithoutExtension($targetFile)
 
-if (-not $NoDate.IsPresent) {
-    $postContent += "date: $(Get-Date -Format 'yyyy-MM-ddTHH:mm:sszzz')"
+if ($fileStem -match '^(\d+)') {
+    $weight = [int]$matches[1]
+}
+elseif ($Title -match '^(\d+)') {
+    $weight = [int]$matches[1]
 }
 
-$postContent += @(
-    "draft: false",
+$postContent = @(
+    "---",
+    ('title: "' + $Title + '"'),
+    ("weight: " + $weight),
     "---",
     ""
 )
