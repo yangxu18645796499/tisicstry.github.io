@@ -61,8 +61,10 @@ if (Test-Path -LiteralPath $targetFile) {
     exit 0
 }
 
+$fileStem = [IO.Path]::GetFileNameWithoutExtension($targetFile)
+
 if (-not $Title -or [string]::IsNullOrWhiteSpace($Title)) {
-    $name = [IO.Path]::GetFileNameWithoutExtension($targetFile)
+    $name = $fileStem
     if ($name -match '^(\d+)(.+)$') {
         $Title = ($matches[1] + ". " + $matches[2].Trim())
     }
@@ -76,7 +78,6 @@ if (-not $Title -or [string]::IsNullOrWhiteSpace($Title)) {
 }
 
 $weight = 0
-$fileStem = [IO.Path]::GetFileNameWithoutExtension($targetFile)
 
 if ($fileStem -match '^(\d+)') {
     $weight = [int]$matches[1]

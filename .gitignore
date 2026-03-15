@@ -2,6 +2,7 @@
 public/
 resources/_gen/
 .hugo_build.lock
+markdown_grammar.md
 
 # OS generated files (macOS & Windows)
 .DS_Store
