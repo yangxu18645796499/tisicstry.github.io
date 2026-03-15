@@ -47,6 +47,7 @@ if ($sectionPath -and $sectionPath -ne ".") {
             $indexContent = @(
                 "---",
                 ('title: "' + $part + '"'),
+                "BookCollapseSection: true",
                 "---",
                 ""
             )
