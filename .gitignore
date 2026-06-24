@@ -1,8 +1,11 @@
-# Hugo default build paths
-public/
-resources/_gen/
-.hugo_build.lock
-markdown_grammar.md
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 
 # OS generated files (macOS & Windows)
 .DS_Store
@@ -14,3 +17,6 @@ Desktop.ini
 .vscode/
 .idea/
 *.swp
+
+# Personal local notes
+markdown_grammar.md

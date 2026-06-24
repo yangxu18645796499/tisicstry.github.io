@@ -1,0 +1,88 @@
+site_name: Tisicstry's Notes
+site_url: https://tisicstry.top/
+site_description: 刷题日记与杂项知识笔记
+docs_dir: docs
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chml.js
+
+nav:
+  - 首页: index.md
+  - 刷题日记:
+      - coding-notes/index.md
+      - LeetCode:
+          - coding-notes/leetcode/index.md
+          - coding-notes/leetcode/3-longest-substring-without-repeating-characters.md
+          - coding-notes/leetcode/198-house-robber.md
+          - coding-notes/leetcode/213-house-robber-II.md
+          - coding-notes/leetcode/337-house-robber-III.md
+          - coding-notes/leetcode/438-find-all-anagrams-in-a-string.md
+          - coding-notes/leetcode/540-single-element-in-sorted-array.md
+      - 解题策略:
+          - coding-notes/coding-strategy/index.md
+          - coding-notes/coding-strategy/1.md
+      - 琐题积累:
+          - coding-notes/misc-notes/index.md
+          - coding-notes/misc-notes/tencent-interview-problem-dp.md
+  - 杂项知识:
+      - misc-knowledge/index.md
+      - misc-knowledge/PCA.md
