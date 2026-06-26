@@ -6,6 +6,7 @@ docs_dir: docs
 theme:
   name: material
   language: zh
+  font: false  # 不从 Google Fonts 在线加载，改用 docs/fonts 下的自托管字体
   features:
     - navigation.instant
     - navigation.tracking
@@ -61,6 +62,11 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+extra_css:
+  # 代码块用的等宽字体（正文走系统无衬线字体，无需额外加载）
+  - https://cdn.jsdelivr.net/npm/@fontsource-variable/jetbrains-mono/index.css
+  - stylesheets/extra.css
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chml.js
@@ -85,4 +91,3 @@ nav:
           - coding-notes/misc-notes/tencent-interview-problem-dp.md
   - 杂项知识:
       - misc-knowledge/index.md
-      - misc-knowledge/PCA.md
