@@ -46,13 +46,13 @@ kbd,
 
 /* 正文基础字号 */
 .md-typeset {
-  font-size: 1.2rem;
+  font-size: 0.6rem;
 }
 
 /* 代码块与行内代码字号：略小于正文 */
 .md-typeset code,
 .md-typeset pre {
-  font-size: 1.25em;
+  font-size: 0.55em;
 }
 
 /* ===== 标题：加粗 + 拉开层级梯度，简洁不花哨 ===== */
