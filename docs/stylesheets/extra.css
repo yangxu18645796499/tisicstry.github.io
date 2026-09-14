@@ -47,6 +47,14 @@ kbd,
   max-width: 1500px;
 }
 
+/* ===== 图片：限制显示尺寸，避免占满整行 ===== */
+.md-typeset img {
+  display: block;
+  margin: 1.2rem auto;
+  max-width: 60%;
+  max-height: 50vh;
+}
+
 /* ===== 字号 ===== */
 
 /* 正文基础字号 */

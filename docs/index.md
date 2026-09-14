@@ -9,6 +9,6 @@ title: 首页
 ## 目录
 
 - [个人介绍](about/index.md)
-- [考研数学](kaoyan/math/index.md)
+- [考研数学](kaoyan/math.md)
 - [考研408](kaoyan/408/index.md)
 - [算法学习](algorithms/index.md)

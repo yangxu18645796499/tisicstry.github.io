@@ -75,34 +75,6 @@ extra_javascript:
 nav:
   - 首页: index.md
   - 个人介绍: about/index.md
-  - 考研数学:
-      - kaoyan/math/index.md
-      - 高等数学:
-          - 常用函数图像: kaoyan/math/高数/00-函数图像记忆.md
-          - 函数、极限、连续: kaoyan/math/高数/01-函数极限连续.md
-          - 一元函数微分学: kaoyan/math/高数/02-一元函数微分学.md
-          - 一元函数积分学: kaoyan/math/高数/03-一元函数积分学.md
-          - 向量代数和空间解析几何: kaoyan/math/高数/04-向量代数和空间解析几何.md
-          - 多元函数微分学: kaoyan/math/高数/05-多元函数微分学.md
-          - 多元函数积分学: kaoyan/math/高数/06-多元函数积分学.md
-          - 无穷级数: kaoyan/math/高数/07-无穷级数.md
-          - 常微分方程: kaoyan/math/高数/08-常微分方程.md
-      - 线性代数:
-          - 行列式: kaoyan/math/线代/01-行列式.md
-          - 矩阵: kaoyan/math/线代/02-矩阵.md
-          - 向量: kaoyan/math/线代/03-向量.md
-          - 线性方程组: kaoyan/math/线代/04-线性方程组.md
-          - 特征值与特征向量: kaoyan/math/线代/05-特征值与特征向量.md
-          - 二次型: kaoyan/math/线代/06-二次型.md
-      - 概率论与数理统计:
-          - 随机事件和概率: kaoyan/math/概率/01-随机事件和概率.md
-          - 随机变量及其分布: kaoyan/math/概率/02-随机变量及其分布.md
-          - 多维随机变量及其分布: kaoyan/math/概率/03-多维随机变量及其分布.md
-          - 随机变量数字特征: kaoyan/math/概率/04-随机变量数字特征.md
-          - 大数定律和中心极限定理: kaoyan/math/概率/05-大数定律和中心极限定理.md
-          - 数理统计基本概念: kaoyan/math/概率/06-数理统计基本概念.md
-          - 参数估计: kaoyan/math/概率/07-参数估计.md
-          - 假设检验: kaoyan/math/概率/08-假设检验.md
-  - 考研408:
-      - kaoyan/408/index.md
+  - 考研数学: kaoyan/math.md
+  - 考研408: kaoyan/408/index.md
   - 算法学习: algorithms/index.md
