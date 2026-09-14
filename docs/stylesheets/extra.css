@@ -42,11 +42,17 @@ kbd,
   font-family: var(--site-mono) !important;
 }
 
+/* ===== 布局：加宽正文区域，接近参考站的阅读宽度 ===== */
+.md-grid {
+  max-width: 1500px;
+}
+
 /* ===== 字号 ===== */
 
 /* 正文基础字号 */
 .md-typeset {
-  font-size: 0.8rem; /* ~16px */
+  font-size: 0.7rem; /* ~14px */
+  line-height: 1.65;
 }
 
 /* 代码块与行内代码字号：与正文一致 */

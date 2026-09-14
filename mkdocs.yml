@@ -7,6 +7,7 @@ theme:
   name: material
   language: zh
   font: false  # 不从 Google Fonts 在线加载，改用 docs/fonts 下的自托管字体
+  favicon: assets/images/favicon.png
   features:
     - navigation.instant
     - navigation.tracking
@@ -67,4 +68,3 @@ extra_css:
 
 nav:
   - 首页: index.md
-  - 游戏: games/index.md
