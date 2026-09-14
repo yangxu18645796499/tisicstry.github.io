@@ -18,5 +18,8 @@ Desktop.ini
 .idea/
 *.swp
 
+# Claude Code local settings
+.claude/settings.local.json
+
 # Personal local notes
 markdown_grammar.md

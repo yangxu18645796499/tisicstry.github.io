@@ -69,7 +69,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chml.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
   - 首页: index.md
