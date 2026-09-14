@@ -1,4 +1,4 @@
-# Tisicstry's Notes
+# Tisicstry's Meditation
 
 个人学习笔记站点，基于 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) 构建，部署在 <https://tisicstry.top/>。
 
