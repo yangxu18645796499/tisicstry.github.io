@@ -46,13 +46,13 @@ kbd,
 
 /* 正文基础字号 */
 .md-typeset {
-  font-size: 0.7rem;
+  font-size: 0.8rem; /* ~16px */
 }
 
-/* 代码块与行内代码字号：略小于正文 */
+/* 代码块与行内代码字号：与正文一致 */
 .md-typeset code,
 .md-typeset pre {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 /* ===== 标题：加粗 + 拉开层级梯度，简洁不花哨 ===== */
@@ -65,23 +65,23 @@ kbd,
 }
 
 .md-typeset h1 {
-  font-size: 2rem; /* ~40px */
+  font-size: 1.6rem; /* ~32px */
   margin: 0 0 0.8em;
 }
 
 .md-typeset h2 {
-  font-size: 1.6rem; /* ~32px */
+  font-size: 1.4rem; /* ~28px */
   font-weight: 600;
   margin: 1.6em 0 0.6em;
 }
 
 .md-typeset h3 {
-  font-size: 1.25rem; /* ~25px */
+  font-size: 1.15rem; /* ~23px */
   font-weight: 600;
   margin: 1.4em 0 0.5em;
 }
 
 .md-typeset h4 {
-  font-size: 1.05rem;
+  font-size: 1rem; /* ~20px */
   font-weight: 600;
 }

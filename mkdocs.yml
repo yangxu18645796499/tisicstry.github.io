@@ -1,6 +1,6 @@
 site_name: Tisicstry's Notes
 site_url: https://tisicstry.top/
-site_description: 刷题日记与杂项知识笔记
+site_description: 个人学习与研究站点
 docs_dir: docs
 
 theme:
@@ -49,8 +49,6 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-  - pymdownx.arithmatex:
-      generic: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -67,27 +65,6 @@ extra_css:
   - https://cdn.jsdelivr.net/npm/@fontsource-variable/jetbrains-mono/index.css
   - stylesheets/extra.css
 
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
 nav:
   - 首页: index.md
-  - 刷题日记:
-      - coding-notes/index.md
-      - LeetCode:
-          - coding-notes/leetcode/index.md
-          - coding-notes/leetcode/3-longest-substring-without-repeating-characters.md
-          - coding-notes/leetcode/198-house-robber.md
-          - coding-notes/leetcode/213-house-robber-II.md
-          - coding-notes/leetcode/337-house-robber-III.md
-          - coding-notes/leetcode/438-find-all-anagrams-in-a-string.md
-          - coding-notes/leetcode/540-single-element-in-sorted-array.md
-      - 解题策略:
-          - coding-notes/coding-strategy/index.md
-          - coding-notes/coding-strategy/1.md
-      - 琐题积累:
-          - coding-notes/misc-notes/index.md
-          - coding-notes/misc-notes/tencent-interview-problem-dp.md
-  - 杂项知识:
-      - misc-knowledge/index.md
+  - 游戏: games/index.md
